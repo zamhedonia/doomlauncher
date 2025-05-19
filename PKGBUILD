@@ -27,5 +27,5 @@ package() {
     install -Dm644 doomlauncher.svg "${pkgdir}/usr/share/icons/hicolor/scalable/apps/doomlauncher.svg"
 
     # Install desktop entry
-    install -Dm644 doomlauncher.desktop "${pkgdir}/usr/share/applications/doomlauncher.desktop"
+    install -Dm644 Doomlauncher.desktop "${pkgdir}/usr/share/applications/doomlauncher.desktop"
 }
