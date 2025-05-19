@@ -8,7 +8,7 @@ url="https://github.com/zamhedonia/doomlauncher"
 license=('MIT')
 depends=('dialog')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/zamhedonia/doomlauncher/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('d2e30af0f2abb4e81e1e33ec631e9ba1914842a54f10e475eb289a6811bc1990')
+sha256sums=('9c2645118e3f9a0aa6a0fbccc829824e769c3a3be52121bc4de6fa7bcb1457cd')
 
 package() {
     cd "${srcdir}/${pkgname}-${pkgver}"
