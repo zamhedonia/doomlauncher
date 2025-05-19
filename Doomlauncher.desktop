@@ -5,4 +5,4 @@ Type=Game
 Terminal=False
 Exec=/usr/bin/doomlauncher
 Name=Doomlauncher
-Icon=/etc/doomlauncher/doomlauncher.svg
+Icon=/usr/share/icons/hicolor/scalable/apps/doomlauncher.svg
