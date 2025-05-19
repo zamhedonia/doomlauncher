@@ -1,8 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
 Version=1.0
-Type=Game
+Type=Application
 Terminal=False
 Exec=/usr/bin/doomlauncher
 Name=Doomlauncher
+Comment=Simple terminal launcher for GZDoom
 Icon=/usr/share/icons/hicolor/scalable/apps/doomlauncher.svg
