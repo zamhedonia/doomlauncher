@@ -1,6 +1,6 @@
 # Maintainer: Zamhedonia <zamhedonia@gmx.de>
 pkgname=doomlauncher
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="Simple terminal launcher for GZDoom with dialog UI"
 arch=('any')
@@ -19,7 +19,13 @@ package() {
     # Install the LICENSE file
     install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 
-    # Install config and theme
+    # Install config andtheme
     install -Dm644 doomlauncher.cfg "${pkgdir}/etc/doomlauncher/doomlauncher.cfg"
     install -Dm644 doomlauncher_theme.rc "${pkgdir}/etc/doomlauncher/doomlauncher_theme.rc"
+
+    # Install icon
+    install -Dm644 doomlauncher.svg "${pkgdir}/usr/share/icons/hicolor/scalable/apps/doomlauncher.svg"
+
+    # Install desktop entry
+    install -Dm644 doomlauncher.desktop "${pkgdir}/usr/share/applications/doomlauncher.desktop"
 }
